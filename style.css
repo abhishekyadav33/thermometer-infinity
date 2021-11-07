@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Yanone+Kaffeesatz&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Crete Round', serif;
+    ;
+}
+
+.outerDiv{
+    width: 100vw;
+    height: 100vh;
+    background-color: #a8dadc;
+    display: grid;
+    place-items: center;
+}
+.innerDiv{
+    width: 80vw;
+    height: 70vh;
+    display: grid;
+    place-items: center;
+}
+.main-heading{
+    padding: 30px;
+    color: #e63946;
+    text-shadow: 0px 1px 8px rgba(255, 255, 255, 0.5);
+    font-size: 150px;
+}
